@@ -82,12 +82,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
     <!-- required as child projects with different version can't use ${project.version} -->
     <hadoop.version>3.2.1</hadoop.version>
 
-    <distMgmtSnapshotsId>apache.snapshots.https</distMgmtSnapshotsId>
+    <distMgmtSnapshotsId>smartnews-snapshots</distMgmtSnapshotsId>
     <distMgmtSnapshotsName>Apache Development Snapshot Repository</distMgmtSnapshotsName>
-    <distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</distMgmtSnapshotsUrl>
-    <distMgmtStagingId>apache.staging.https</distMgmtStagingId>
+    <distMgmtSnapshotsUrl>http://nexus.smartnews.be/nexus/content/repositories/snapshots</distMgmtSnapshotsUrl>
+    <distMgmtStagingId>smartnews</distMgmtStagingId>
     <distMgmtStagingName>Apache Release Distribution Repository</distMgmtStagingName>
-    <distMgmtStagingUrl>https://repository.apache.org/service/local/staging/deploy/maven2</distMgmtStagingUrl>
+    <distMgmtStagingUrl>http://nexus.smartnews.be/nexus/content/repositories/smartnews</distMgmtStagingUrl>
 
     <!-- platform encoding override -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
