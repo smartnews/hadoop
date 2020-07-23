@@ -44,8 +44,7 @@ import java.util.List;
 
 public class FifoAppAttempt extends FiCaSchedulerApp {
   private static final Log LOG = LogFactory.getLog(FifoAppAttempt.class);
-  // smartnews change FifoAppAttempt contructor to be public
-  public FifoAppAttempt(ApplicationAttemptId appAttemptId, String user,
+  FifoAppAttempt(ApplicationAttemptId appAttemptId, String user,
       Queue queue, ActiveUsersManager activeUsersManager,
       RMContext rmContext) {
     super(appAttemptId, user, queue, activeUsersManager, rmContext);
